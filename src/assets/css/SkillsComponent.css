@@ -1,0 +1,30 @@
+.skill-select-prompt {
+    text-align: center;
+}
+
+.skill-tag {
+    background-color: #E0E0E0; /* Graue Hintergrundfarbe für Tags */
+    color: #333; /* Dunkle Textfarbe für Tags */
+    padding: 0.25em 0.75em; /* Innenabstand */
+    border-radius: 15px; /* Abgerundete Ecken */
+    margin-right: 0.5em; /* Abstand zwischen den Tags */
+    margin-bottom: 0.5em; /* Abstand von der unteren Zeile */
+    display: inline-block; /* Tags nebeneinander anzeigen */
+    cursor: default;
+}
+
+.skills-details {
+    text-align: right;
+}
+
+.skills-details br {
+    margin-bottom: 10px;
+    content: "";
+    display: block;
+}
+
+.skill-tag-list {
+    text-align: right;
+    margin-top: 20px;
+    display: flex;
+}

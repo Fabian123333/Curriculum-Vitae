@@ -1,0 +1,445 @@
+{
+    "format": {
+        "dateofbirth": "Geburtsdatum: {{date}}",
+        "inbusinesssince": "Professionelle Lösungen seit {{date}}",
+        "welcome": "Hallo, ich bin {{firstName}}",
+        "companyShort": "{{name}}, {{city}}",
+        "jobTitleShort": "{{title}}",
+        "githubProfileUrl": "https://github.com/{{username}}",
+        "xingProfileUrl": "https://www.xing.com/profile/{{username}}",
+        "linkedinProfileUrl": "https://www.linkedin.com/in/{{username}}",
+        "copyright": "© {{createYear}}-{{currentYear}} {{legal}}",
+        "privacyPolicy": "Auf der Webseite von {{owner}}, erreichbar unter https://{{domain}}, ist der Schutz der Privatsphäre unserer Besucher eine unserer Hauptprioritäten. Dieses Datenschutzdokument enthält Arten von Informationen, die von der Webseite von {{owner}} gesammelt und aufgezeichnet werden, und wie wir sie verwenden.",
+        "privacyPolicy2": "Wenn Sie weitere Fragen haben oder mehr Informationen über unsere Datenschutzrichtlinie benötigen, zögern Sie nicht, uns zu kontaktieren. Unsere Datenschutzrichtlinie wurde mit Hilfe des <a href='https://www.gdprprivacynotice.com/'>GDPR-Datenschutzrichtlinien-Generators</a> erstellt",
+        "consent": "Mit der Nutzung unserer Webseite erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden und stimmen deren Bedingungen zu.",
+        "onlinePrivacyPolicy": "Unsere Datenschutzrichtlinie gilt ausschließlich für unsere Online-Aktivitäten und ist gültig für Besucher unserer Webseite hinsichtlich der Informationen, die sie geteilt und/oder auf {{owner}}s Webseite gesammelt haben. Diese Richtlinie ist nicht anwendbar auf Informationen, die offline gesammelt wurden oder über andere Kanäle als diese Webseite.",
+        "childrensInformation": "Ein weiterer Teil unserer Priorität ist der Schutz von Kindern bei der Nutzung des Internets. Wir ermutigen Eltern und Vormünder dazu, die Online-Aktivitäten zu beobachten, daran teilzunehmen und/oder zu überwachen und zu leiten.",
+        "childrensInformation2": "{{owner}}s Webseite sammelt wissentlich keine Persönlich Identifizierbaren Informationen von Kindern unter 13 Jahren. Wenn Sie denken, dass Ihr Kind solche Informationen auf unserer Webseite bereitgestellt hat, ermutigen wir Sie dringend, uns sofort zu kontaktieren, und wir werden unser Bestes tun, um solche Informationen umgehend aus unseren Unterlagen zu entfernen.",
+        "thirdpartypolicies": "{{owner}} respektiert Ihre Privatsphäre. Es werden keine Informationen mit externen Anbietern wie CDNs, Werbedienstleistern oder ähnlichem geteilt.",
+        "thirdpartypolicies2": "Sie können wählen, das Sprach-Cookie über Ihre individuellen Browsereinstellungen zu deaktivieren. Detaillierte Informationen über das Verwalten von Cookies mit spezifischen Webbrowsern finden Sie auf den jeweiligen Websites der Browser.",
+        "logfiles": "Die Webseite von {{owner}} verwendet standardmäßig Logdateien. Diese Logdateien erfassen Besucher, wenn sie Webseiten besuchen. Alle Hosting-Unternehmen machen dies als Teil der Analytik ihrer Hosting-Dienste. Die durch Logdateien gesammelten Informationen umfassen Internetprotokoll (IP)-Adressen, Browsertyp, Internetdienstanbieter (ISP), Datum und Zeitstempel, verweisende/exit Seiten und möglicherweise die Anzahl der Klicks. Diese sind nicht mit persönlich identifizierbaren Informationen verknüpft. Der Zweck der Informationen liegt in der Analyse von Trends, der Verwaltung der Website, der Nachverfolgung der Bewegungen der Nutzer auf der Website und der Sammlung demografischer Informationen.",
+        "gdpr": "<p>Wir sind der Datenverantwortliche Ihrer Informationen.</p><p>Die rechtliche Grundlage der Webseite von {{owner}} für die Erhebung und Nutzung der in dieser Datenschutzrichtlinie beschriebenen persönlichen Informationen hängt von den persönlichen Informationen ab, die wir sammeln, und dem spezifischen Kontext, in dem wir die Informationen sammeln:</p><ul><li>Die Webseite von {{owner}} muss einen Vertrag mit Ihnen ausführen</li><li>Sie haben der Webseite von {{owner}} die Erlaubnis dazu gegeben</li><li>Die Verarbeitung Ihrer persönlichen Informationen liegt im legitimen Interesse der Webseite von {{owner}}</li><li>Die Webseite von {{owner}} muss gesetzliche Bestimmungen erfüllen</li></ul><p>Die Webseite von {{owner}} wird Ihre persönlichen Informationen nur so lange aufbewahren, wie es für die in dieser Datenschutzrichtlinie dargelegten Zwecke notwendig ist. Wir werden Ihre Informationen in dem Maße aufbewahren und verwenden, wie es notwendig ist, um unseren rechtlichen Verpflichtungen nachzukommen, Streitigkeiten beizulegen und unsere Richtlinien durchzusetzen.</p><p>Wenn Sie in der Europäischen Wirtschaftszone (EWR) ansässig sind, haben Sie bestimmte Datenschutzrechte. Wenn Sie darüber informiert werden möchten, welche persönlichen Informationen wir über Sie gespeichert haben und wenn Sie möchten, dass diese aus unseren Systemen entfernt werden, kontaktieren Sie uns bitte.</p><p>In bestimmten Umständen haben Sie die folgenden Datenschutzrechte:</p><ul><li>Das Recht auf Zugang, Aktualisierung oder Löschung der Informationen, die wir über Sie haben.</li><li>Das Recht auf Berichtigung.</li><li>Das Recht auf Widerspruch.</li><li>Das Recht auf Einschränkung.</li><li>Das Recht auf Datenübertragbarkeit</li><li>Das Recht, die Zustimmung zu widerrufen</li></ul>"  
+    },
+    "alt": {
+        "profilePictureFull": "Profilbild",
+        "phone": "Telefonnummer",
+        "email": "E-Mail-Adresse"
+    },
+    "title": {
+        "employeeHistory": "Erfahrung",
+        "skills": "Fähigkeiten",
+        "references": "Referenzen"
+    },
+    "label": {
+        "pageNotFound": "Seite nicht gefunden",
+        "pageNotFoundDescription": "Entschuldigung, die Seite, die Sie suchen, existiert nicht oder wurde verschoben.",
+        "company": "Unternehmen",
+        "present": "Aktuell",
+        "selectjob": "Bitte wählen Sie links eine Stelle aus",
+        "selectskill": "Bitte wählen Sie rechts eine Fähigkeit aus",
+        "overview": "Überblick",
+        "visitWebsite": "Unternehmenswebseite besuchen",
+        "impressum": "Impressum",
+        "home": "Startseite",
+        "serviceProvider": "Dienstanbieter",
+        "contact": "Kontakt",
+        "privacyPolicy": "Datenschutzerklärung",
+        "consent": "Einwilligung",
+        "onlinePrivacyPolicy": "Nur Online-Datenschutzrichtlinie",
+        "childrensInformation": "Informationen für Kinder",
+        "thirdpartypolicies": "Datenschutzrichtlinien Dritter",
+        "logfiles": "Logdateien",
+        "gdpr": "Allgemeine Datenschutzverordnung (DSGVO)"
+    },
+
+    "country": {
+        "germany": "Deutschland"
+    },
+
+    "tags": {
+        "1": {
+            "name": "DevOps"
+        },
+        "2": {
+            "name": "Webhosting-Verwaltung"
+        },
+        "3": {
+            "name": "Datenbankmanagement"
+        },
+        "4": {
+            "name": "Serverinfrastruktur"
+        },
+        "5": {
+            "name": "Betriebseffizienz"
+        },
+        "6": {
+            "name": "Automatisierung & Arbeitsabläufe"
+        },
+        "7": {
+            "name": "GitLab CI"
+        },
+        "8": {
+            "name": "Kubernetes"
+        },
+        "9": {
+            "name": "Ansible"
+        },
+        "10": {
+            "name": "DevOps-Kultur"
+        },
+        "11": {
+            "name": "DDoS-Schutz"
+        },
+        "12": {
+            "name": "Penetrationstests"
+        },
+        "13": {
+            "name": "Forensische Analyse"
+        },
+        "14": {
+            "name": "Sicherheitsstrategien"
+        },
+        "15": {
+            "name": "Technologieinnovation"
+        },
+        "16": {
+            "name": "Systemskalierbarkeit"
+        },
+        "17": {
+            "name": "Kryptowährungs-Mining"
+        },
+        "18": {
+            "name": "Technologieführung"
+        },
+        "19": {
+            "name": "Blockchain-Integration"
+        },
+        "20": {
+            "name": "Betriebseffizienz"
+        },
+        "21": {
+            "name": "Node-Integration"
+        },
+        "22": {
+            "name": "Überwachungssysteme"
+        },
+        "23": {
+            "name": "Prozessentwicklung"
+        },
+        "24": {
+            "name": "Zahlungssysteme"
+        },
+        "25": {
+            "name": "Netzwerksicherheit"
+        },
+        "26": {
+            "name": "Teamführung"
+        },
+        "27": {
+            "name": "Innovationsmanagement"
+        },
+        "28": {
+            "name": "Systemskalierbarkeit"
+        },
+        "29": {
+            "name": "CTO"
+        },
+        "30": {
+            "name": "Technikteam-Management"
+        },
+        "31": {
+            "name": "Strategische Planung"
+        },
+        "32": {
+            "name": "Infrastrukturentwicklung"
+        },
+        "33": {
+            "name": "Expertise in Cluster-Umgebungen"
+        },
+        "34": {
+            "name": "ESXI"
+        },
+        "35": {
+            "name": "Microsoft-Verfügbarkeitscluster"
+        },
+        "36": {
+            "name": "DRBD"
+        },
+        "37": {
+            "name": "Heartbeat"
+        },
+        "38": {
+            "name": "Unterstützung für KMU"
+        },
+        "39": {
+            "name": "Endbenutzer-Support"
+        },
+        "40": {
+            "name": "Windows- und Debian-Systeme"
+        },
+        "41": {
+            "name": "Technische Schulung"
+        },
+        "42": {
+            "name": "Kontinuierliches Lernen"
+        },
+        "43": {
+            "name": "Problemlösung"
+        },
+        "44": {
+            "name": "Innovation in der IT"
+        },
+        "45": {
+            "name": "Kundenzufriedenheit"
+        },
+        "46": {
+            "name": "Technologieanpassung"
+        },
+        "47": {
+            "name": "Hardware-Tests"
+        },
+        "48": {
+            "name": "Server-Einrichtung"
+        },
+        "49": {
+            "name": "Server-Bereitstellung"
+        },
+        "50": {
+            "name": "Kundenorientierte Lösungen"
+        },
+        "51": {
+            "name": "Hardwareaustausch"
+        },
+        "52": {
+            "name": "Leistungsoptimierung"
+        },
+        "53": {
+            "name": "Betriebssysteme"
+        },
+        "54": {
+            "name": "Netzwerkprotokolle"
+        },
+        "55": {
+            "name": "Technische Kompetenz"
+        },
+        "56": {
+            "name": "Diagnose und Fehlerbehebung"
+        },
+        "57": {
+            "name": "Einhaltung von Kundenspezifikationen"
+        },
+        "58": {
+            "name": "Effizienz und Zuverlässigkeit"
+        },
+        "59": {
+            "name": "System-Upgrades"
+        },
+        "60": {
+            "name": "IT-Infrastruktur"
+        },
+        "61": {
+            "name": "Technischer Support"
+        },
+        "62": {
+            "name": "Univention Corporate Server (UCS)"
+        },
+        "63": {
+            "name": "Problemlösung"
+        },
+        "64": {
+            "name": "Kundendienst"
+        },
+        "65": {
+            "name": "Systemverständnis"
+        },
+        "66": {
+            "name": "Technisches Fachwissen"
+        },
+        "67": {
+            "name": "Proaktiver Ansatz"
+        },
+        "68": {
+            "name": "Kontinuierliches Lernen"
+        },
+        "69": {
+            "name": "Rollenanpassung"
+        },
+        "70": {
+            "name": "IT-Lösungen"
+        },
+        "71": {
+            "name": "C#"
+        },
+        "72": {
+            "name": "C++"
+        },
+        "73": {
+            "name": "Python"
+        },
+        "74": {
+            "name": "Bash"
+        },
+        "75": {
+            "name": "SQL"
+        },
+        "76": {
+            "name": "Terraform"
+        },
+        "77": {
+            "name": "GDB"
+        },
+        "78": {
+            "name": "strace"
+        },
+        "79": {
+            "name": "perf"
+        },
+        "80": {
+            "name": "mod_antiddos"
+        },
+        "81": {
+            "name": "DDoS-Schutz"
+        },
+        "82": {
+            "name": "PHP"
+        },
+        "83": {
+            "name": "ReactJS"
+        },
+        "84": {
+            "name": "VueJS"
+        },
+        "85": {
+            "name": "TimescaleDB"
+        },
+        "86": {
+            "name": "InfluxDB"
+        },
+        "87": {
+            "name": "Linux"
+        },
+        "88": {
+            "name": "BSD"
+        },
+        "89": {
+            "name": "OTRS"
+        },
+        "90": {
+            "name": "Jira"
+        },
+        "91": {
+            "name": "ISMS"
+        },
+        "92": {
+            "name": "ISO"
+        },
+        "93": {
+            "name": "Englisch"
+        },
+        "94": {
+            "name": "Deutsch"
+        },
+        "95": {
+            "name": "Thai"
+        }
+    },
+
+    "skills": {
+        "1": {
+            "title": "Backend-Entwicklung",
+            "description": "Im Bereich der Backend-Entwicklung umfasst meine Erfahrung eine vielfältige Palette an Programmiersprachen, einschließlich C#, C++, PHP und Python. Diese umfassenden Sprachkenntnisse haben es mir ermöglicht, verschiedene Projekte durchzuführen, von Webanwendungen bis hin zu komplexen Systemintegrationen. Mein Ansatz ist stets von Best Practices geleitet und ich verpflichte mich dazu, sauberen, wartbaren und effizienten Code zu schreiben. Ob ich ein Projekt von Grund auf neu starte oder in einen bestehenden Code eintauche, mein Ziel ist es, robuste Backend-Lösungen zu liefern, die die Projektanforderungen erfüllen und übertreffen.<br/>Meine Expertise erstreckt sich auf ein tiefes Verständnis der Softwarearchitektur. Ich habe beträchtliche Zeit damit verbracht, verschiedene architektonische Muster zu studieren und zu implementieren, von traditionellen monolithischen Architekturen bis hin zu moderneren, auf Mikrodiensten basierenden Ansätzen. Dieses Wissen ermöglicht es mir, Systeme zu entwerfen und zu konstruieren, die skalierbar, zuverlässig und anpassungsfähig an wechselnde Geschäftsanforderungen sind. Ich bin besonders geschickt darin, komplexe Probleme zu zerlegen und logische, modulare Lösungen zu schaffen, die die Gesamtfunktionalität und Leistung von Anwendungen verbessern.<br/>Im Laufe der Jahre habe ich umfangreiche Erfahrung in der Erweiterung und Verbesserung bestehender Projekte gesammelt. Ich verstehe die einzigartigen Herausforderungen, die mit der Arbeit an Altsystemen einhergehen, einschließlich der Navigation in von anderen geschriebenen Code, dem Verständnis von Geschäftslogikintrigen und der schrittweisen Verbesserung ohne aktuelle Funktionalitäten zu stören. Meine Fähigkeit, Systeme zu refaktorisieren und zu modernisieren, hat älteren Anwendungen neues Leben eingehaucht und sicherstellt, dass sie weiterhin effektiv den Geschäftsanforderungen dienen.<br/>Zusätzlich zur traditionellen Backend-Entwicklung habe ich mich in die Welt der IoT-Entwicklung gewagt, indem ich vernetzte Systeme erstellt habe, die Hardware und Software kombinieren, um Daten zu sammeln, auszutauschen und zu analysieren. Diese Erfahrung hat mir eine einzigartige Perspektive darauf vermittelt, wie Backend-Systeme als Rückgrat für IoT-Lösungen dienen können, indem sie zuverlässige Datenverarbeitung, Speicherung und Kommunikationsfähigkeiten bieten. Meine Arbeit im IoT hat nicht nur mein technisches Können erweitert, sondern mir auch ermöglicht, zu innovativen Projekten beizutragen, die die physische und digitale Welt integrieren."
+        },
+        "2": {
+            "title": "DevOps",
+            "description": "Im Bereich DevOps bin ich durch meine umfangreiche Erfahrung mit einer Vielzahl von Technologien, einschließlich Terraform, Bash, C#, Ansible, Kubernetes und GitLab-CI, gut aufgestellt. Diese technischen Fähigkeiten ermöglichen es mir, komplexe CI/CD-Pipelines zu entwickeln, Infrastrukturen als Code zu verwalten und robuste, skalierbare Container-Orchestrierungen zu implementieren. Mein Fokus liegt auf der Automatisierung, Optimierung und Sicherung von Softwareentwicklungs- und Bereitstellungsprozessen, um eine reibungslose und effiziente Produktion zu gewährleisten.<br/>Ich habe ein tiefes Verständnis für Infrastrukturdesign und -management, das es mir ermöglicht, hochverfügbare und fehlertolerante Systeme zu entwerfen. Durch die Nutzung von Terraform und Ansible automatisiere ich die Bereitstellung und Wartung von Infrastrukturen, reduziere menschliche Fehler und steigere die Effizienz. Mit meiner Erfahrung in Kubernetes orchestriere ich Container auf einer höheren Ebene, was für eine effiziente Skalierung und Verwaltung von Anwendungen unerlässlich ist.<br/>Mein Ansatz bei der Arbeit mit GitLab-CI ist es, eine nahtlose Integration und kontinuierliche Verbesserung des gesamten Entwicklungslebenszyklus zu gewährleisten. Ich erstelle komplexe Pipelines, die das Bauen, Testen und Bereitstellen automatisieren, um die Qualität und Stabilität der Anwendungen sicherzustellen. Ich habe auch Erfahrung in der Implementierung von Sicherheits- und Compliance-Standards innerhalb von DevOps-Prozessen, um die Integrität und Sicherheit der Infrastruktur zu gewährleisten.<br/>Insgesamt bringe ich eine kreative und problemlösende Denkweise in die Welt der DevOps ein. Ich bin ständig auf der Suche nach innovativen Lösungen, die die Effizienz steigern, Kosten reduzieren und die Skalierbarkeit und Flexibilität der Systeme verbessern. Mein Ziel ist es, als Brückenbauer zwischen Entwicklung und Betrieb zu fungieren und einen reibungslosen, schnellen und sicheren Softwareentwicklungszyklus zu gewährleisten."
+        },
+        "3": {
+            "title": "Analytik",
+            "description": "Im Bereich der Analytik gründen sich meine Fähigkeiten auf ein robustes Verständnis von Problemlösung und Systemanalyse unter Verwendung von Tools wie GDB, Strace und perf. Meine analytische Kompetenz ermöglicht es mir, komplexe Probleme zu zergliedern, die Systemleistung zu optimieren und Sicherheitsmaßnahmen zu verstärken. Ich habe eine bedeutende Erfolgsgeschichte darin, Leistungsengpässe, Sicherheitslücken und betriebliche Ineffizienzen zu identifizieren und zu beheben.<br/>Ein bemerkenswerter Aspekt meiner Expertise liegt im DDoS-Schutz. Ich habe ein eigenes Anti-DDoS-Modul für Apache (mod_antiddos) entwickelt, das meine Fähigkeit zur Innovation und Implementierung effektiver Sicherheitslösungen zeigt. Diese Erfahrung hat nicht nur mein Verständnis von Netzwerk- und Anwendungsschichtangriffen vertieft, sondern auch meine Fähigkeiten in der Gestaltung und Implementierung von Strategien zur effektiven Risikominderung verbessert.<br/>Mein Ansatz ist stets systematisch und datengesteuert, um sicherzustellen, dass jede Entscheidung auf einer gründlichen Analyse beruht und ein klares Verständnis ihrer Auswirkungen auf die Systemleistung und Sicherheit hat. Ich bin geschickt im Einsatz verschiedener Werkzeuge und Methodologien zur Überwachung, Analyse und Optimierung von Systemen, um ihre Robustheit gegen Bedrohungen und Effizienz in der Leistung zu gewährleisten.<br/>Insgesamt ist meine Erfahrung in der Analytik durch tiefes technisches Wissen, Engagement für Exzellenz und einen proaktiven Ansatz zur Bewältigung von Herausforderungen gekennzeichnet. Ich suche kontinuierlich nach neuen Technologien und Methoden, um an der Spitze des Feldes zu bleiben und sicherzustellen, dass ich die bestmöglichen Lösungen für alle analytischen Herausforderungen bieten kann."
+        },
+        "4": {
+            "title": "Webentwicklung",
+            "description": "Als primärer Backend-Entwickler mit erheblichen Ausflügen in Frontend-Technologien umfasst meine Expertise in der Webentwicklung ein breites Spektrum an Fähigkeiten und Technologien, einschließlich C#, PHP, ReactJS, VueJS, TimescaleDB und InfluxDB. Meine Kenntnisse in diesen Bereichen haben es mir ermöglicht, dynamische, effiziente und skalierbare Webanwendungen zu entwickeln, die eine Vielzahl von Geschäftsanforderungen erfüllen.<br/>Im Backend nutze ich C# und PHP, um robuste serverseitige Logik und Architekturen zu erstellen. Meine Arbeit beinhaltet oft die Integration mit Datenbanken wie TimescaleDB und InfluxDB, um sicherzustellen, dass Daten effizient und zuverlässig gehandhabt werden. Mein Engagement für sauberen, wartbaren und effizienten Code steht fest, egal ob ich an API-Entwicklung, Datenverarbeitung oder komplexen Systemintegrationen arbeite.<br/>Im Frontend ermöglicht mir meine Erfahrung mit ReactJS, einschließlich Zustandsverwaltung mit Redux, interaktive und benutzerfreundliche Schnittstellen zu konstruieren. Ähnlich ist VueJS ein weiteres Werkzeug in meinem Repertoire, um schnelle, reaktive Webseiten zu erstellen. Meine Fähigkeit, solide Backend-Strukturen mit einer reibungslosen Frontend-Erfahrung zu verbinden, führt zu Full-Stack-Fähigkeiten, die umfassende Webentwicklungsprojekte bedienen.<br/>Insgesamt ist meine Reise in der Webentwicklung von einem kontinuierlichen Streben nach Lernen und Exzellenz geprägt. Ich beherrsche das gesamte Spektrum der Webentwicklung, von der Konzeption und dem Design von Datenmodellen bis hin zur Gestaltung benutzerzentrierter Schnittstellen. Mein Ziel ist es, Web-Lösungen zu liefern, die nicht nur technisch solide sind, sondern auch mit den Bedürfnissen der Nutzer und den Geschäftszielen übereinstimmen, um eine harmonische Mischung aus Form und Funktion in der digitalen Landschaft zu gewährleisten."
+        },
+        "5": {
+            "title": "Verwaltung",
+            "description": "Im Bereich der Verwaltung ist meine Expertise in der umfassenden Verwaltung und Betrieb verschiedener Serverumgebungen, einschließlich Linux, BSD und ESXi, verwurzelt. Meine Kenntnisse dieser Plattformen ermöglichen es mir, sicherzustellen, dass Systeme effizient, sicher und zuverlässig laufen. Ich bin geschickt darin, eine Vielzahl von Serversystemen einzurichten, zu konfigurieren und zu warten, strenge Sicherheitsmaßnahmen und Leistungsoptimierungen anzuwenden, um den hohen Standards moderner IT-Infrastrukturen gerecht zu werden.<br/>Ein wesentlicher Teil meiner Rolle beinhaltet die Automatisierung repetitiver und komplexer Aufgaben. Unter Verwendung von Werkzeugen wie Ansible habe ich Bereitstellungs-, Konfigurations- und Wartungsprozesse optimiert und dadurch das Potenzial für menschliche Fehler deutlich reduziert, während ich die Systemkonsistenz und -effizienz verbessere. Mein Ansatz zur Automatisierung erstreckt sich auf kontinuierliches Monitoring und proaktives Troubleshooting, um sicherzustellen, dass Systeme unter verschiedenen Lasten widerstandsfähig und leistungsfähig bleiben.<br/>Ich nehme einen systematischen und proaktiven Ansatz zur Serververwaltung an, bleibe immer an der Spitze der neuesten Branchenpraktiken und Sicherheitsprotokolle. Ob es um Patch-Management, System-Upgrades oder Katastrophenwiederherstellungsplanung geht, ich bin verpflichtet, das höchste Niveau der Dienstverfügbarkeit und Datenintegrität zu erhalten. Mein tiefes Verständnis von Netzwerk- und Servertechnologien ermöglicht es mir, Serverumgebungen zu entwerfen und zu verwalten, die robust, skalierbar und sicher sind.<br/>Insgesamt ist meine Erfahrung in der Verwaltung gekennzeichnet durch Hingabe an technologische Exzellenz und die unermüdliche Verfolgung optimierter, sicherer und effizienter Serveroperationen. Ich verbessere kontinuierlich meine Fähigkeiten und passe mich neuen Technologien an, um sicherzustellen, dass die Infrastrukturen, die ich verwalte, nicht nur den aktuellen Anforderungen gerecht werden, sondern auch auf zukünftige Herausforderungen und Chancen vorbereitet sind."
+        },
+        "6": {
+            "title": "Öffentlichkeitsarbeit",
+            "description": "Im Bereich der Öffentlichkeitsarbeit hat mich mein Hintergrund als IT-Berater und Support-Spezialist mit einer einzigartigen Mischung aus technischem Know-how und Stakeholder-Management-Fähigkeiten ausgestattet. Meine Erfahrungen erstrecken sich auf die Bereitstellung von 2nd und 3rd Level Support, wo ich meine Fähigkeit, komplexe technische Probleme zu lösen, während ich klare und effektive Kommunikation aufrechterhalte, verfeinert habe. Ich bin geschickt im Navigieren durch die Feinheiten verschiedener Support-Plattformen und -Werkzeuge, um sicherzustellen, dass ich Lösungen schnell und effizient liefern kann.<br/>Meine Interaktion mit Behörden und Kunden in herausfordernden Szenarien hat meine Fähigkeit gestärkt, sensible und hochbrisante Situationen mit Takt und Professionalität zu handhaben. Ich verstehe die Wichtigkeit des Aufbaus und der Pflege von Beziehungen, ob es darum geht, bürokratische Prozesse mit Regierungsstellen zu navigieren oder die nuancierten Bedürfnisse komplizierter Kunden anzusprechen. Mein Ansatz ist stets von Geduld, Empathie und einer fokussierten Problemlösungshaltung geprägt.<br/>Darüber hinaus bringe ich ein gründliches Verständnis der IT-Landschaften mit, was es mir ermöglicht, technische Details und Strategien effektiv an nicht-technische Stakeholder zu kommunizieren. Mein Ziel ist es, die Lücke zwischen technischen Teams und öffentlichen Einrichtungen oder Kunden zu überbrücken und sicherzustellen, dass Projekte regulatorische Standards erfüllen und die gewünschten Ergebnisse erzielen. Ich bin bestrebt, die besten Interessen meiner Organisation zu vertreten, während ich die Einhaltung sicherstelle und positive, langfristige Beziehungen zu externen Partnern und Kunden fördere.<br/>Insgesamt ist meine Erfahrung in der Öffentlichkeitsarbeit gekennzeichnet durch ein Engagement für Exzellenz, kontinuierliches Lernen und einen anpassungsfähigen Ansatz, um die ständig sich entwickelnden Herausforderungen und Chancen im Schnittbereich zwischen Technologie, Geschäft und regulatorischen Umgebungen zu meistern."
+        },
+        "7": {
+            "title": "Sprachliche Kompetenz",
+            "description": "Meine sprachliche Kompetenz umfasst ein reiches und dynamisches Spektrum an Sprachen, die jeweils eine einzigartige kulturelle und kommunikative Landschaft repräsentieren. Als Muttersprachler des Deutschen besitze ich ein angeborenes Verständnis und fließende Sprachkenntnisse, die sich durch ein tiefes kulturelles Bewusstsein und die Fähigkeit auszeichnen, sich mühelos in komplexe Diskussionen und Texte einzubringen.<br/>In Englisch habe ich ein Kompetenzniveau erreicht, das es mir erlaubt, selbstbewusst und artikuliert zu verhandeln, dank jahrelanger täglicher Interaktion mit Kunden in professionellen Umgebungen. Meine Sprachbeherrschung erstreckt sich auf sowohl schriftliche als auch mündliche Formen, was es mir ermöglicht, komplexe Ideen effektiv zu kommunizieren und sich in detaillierten Diskussionen über eine breite Palette von Themen zu engagieren.<br/>Ich stelle mich auch der Herausforderung, Thai zu lernen, derzeit auf Anfängerniveau. Dieses Unterfangen spiegelt meine Leidenschaft für Sprachen und mein Engagement wider, kontinuierlich meine Kommunikationsfähigkeiten und mein kulturelles Verständnis zu erweitern. Obwohl ich mich in den frühen Stadien des Lernens befinde, bin ich dem Fortschritt im Thailändischen gewidmet und schätze die Nuancen seiner Struktur und die kulturelle Tiefe, die es repräsentiert.<br/>Insgesamt sind meine Sprachkenntnisse ein Zeugnis meiner Hingabe an effektive Kommunikation, kulturellen Austausch und persönliches sowie berufliches Wachstum. Sie rüsten mich mit der Fähigkeit aus, in verschiedenen sprachlichen und kulturellen Umgebungen zu navigieren, Brücken zu bauen und Verständnis in einer global vernetzten Welt zu fördern."
+        }
+    },
+
+    "companies": {
+        "1": {
+            "name": "Univention GmbH",
+            "city": "Bremen",
+            "url": "https://www.univention.de/",
+            "description": "Univention ist ein führender Anbieter von Open-Source-Software zur Verwaltung von Identitäten und Infrastrukturen, mit Fokus auf Benutzerfreundlichkeit, Flexibilität und Integration."
+        },
+        "2": {
+            "name": "Hetzner Online GmbH",
+            "city": "Gunzenhausen",
+            "url": "https://www.hetzner.com/",
+            "description": "Hetzner Online ist ein professioneller Webhosting-Anbieter und erfahrener Betreiber von Rechenzentren. Seit 1997 bietet das Unternehmen privaten und geschäftlichen Kunden leistungsfähige Hosting-Produkte sowie die notwendige Infrastruktur für den effizienten Betrieb von Websites. Hetzner bietet eine Reihe von Dienstleistungen, von Shared Hosting und Domainregistrierung bis hin zu dedizierten Servern und persönlichen Managed Services, mit einem starken Engagement für Datenschutz, Zuverlässigkeit und Sicherheit."
+        },
+        "3": {
+            "name": "Smart Mining ehf.",
+            "city": "Reykjavík",
+            "url": "https://web.archive.org/web/20181122033538/https://smart-mining.io/",
+            "description": "Smart Mining ehf. ist ein engagierter Anbieter von Dienstleistungen für das Cloud-Mining von Kryptowährungen, der zugängliche, effiziente und zuverlässige Mining-Lösungen für Einzelpersonen und Unternehmen weltweit anbietet, mit einem Schwerpunkt auf Nachhaltigkeit und optimaler Leistung."
+        },
+        "4": {
+            "name": "SOFTWERK GmbH",
+            "city": "Fürth",
+            "url": "https://www.softwerk.de/",
+            "description": "Die Softwerk GmbH ist ein dynamisches IT-Unternehmen, das sich auf die Entwicklung robuster Cluster-Umgebungen wie ESXI und Microsoft HA Cluster spezialisiert hat, umfassende Endbenutzerunterstützung bietet und Lösungen für verschiedene KMUs liefert, mit einem Schwerpunkt auf kontinuierliches Lernen und Innovation."
+        },
+        "5": {
+            "name": "Core-Backbone GmbH",
+            "city": "Nürnberg",
+            "url": "https://www.core-backbone.com/",
+            "description": "Core-Backbone ist ein führender Anbieter von leistungsfähigen Internetlösungen und liefert zuverlässige Backbone-Dienste, Hosting und Netzwerkmanagement mit globaler Reichweite."
+        }
+    },
+
+    "jobs": {
+        "1": {
+            "title": "Linux-Support-Engineer",
+            "description": "Bei der Univention GmbH bin ich relativ neu im Team und konzentriere mich darauf, technischen Support für den Univention Corporate Server (UCS) zu leisten. Während ich noch die Komplexitäten dieser Rolle navigiere, besteht meine Hauptaufgabe darin, technische Probleme zu adressieren und zu lösen, um einen reibungslosen und effizienten Betrieb für unsere Kunden zu gewährleisten. Angesichts der nuancierten und technischen Natur des UCS erfordert meine Rolle ein scharfes Verständnis des Systems und einen proaktiven Ansatz zur Problemlösung.<br/>Obwohl eine umfassende Zusammenfassung meiner Zeit bei der Univention GmbH vielleicht verfrüht sein mag, ist klar, dass meine Reise hier sowohl herausfordernd als auch lohnend zu werden verspricht. Während ich weiter wachse und mich anpasse, bin ich bestrebt, mein Verständnis des UCS zu vertiefen und die Unterstützung, die ich biete, zu verbessern, um das höchste Niveau an Service und technischer Expertise für unsere Kunden sicherzustellen."
+        },
+        "2": { 
+            "title": "Linux-Systemadministrator und Kundenbetreuer",
+            "description": "Bei Hetzner Online war ich auf die Verwaltung, Wartung und Erweiterung der kritischen Webhosting-, Datenbank- und Managed-Server-Infrastrukturen spezialisiert. Mein Tagesablauf beinhaltet einen proaktiven Ansatz, um den nahtlosen Betrieb unserer Hosting-Umgebung zu gewährleisten, die eine vielfältige Klientel bedient, von kleinen Unternehmen bis zu großangelegten E-Commerce-Plattformen oder staatlichen Kunden. Durch regelmäßige Aktualisierungen und Verfeinerungen unserer Systeme stelle ich optimale Leistung sicher und sorge dafür, dass die neuesten technologischen Fortschritte im Vordergrund unserer Dienstleistungen stehen.<br>Meine Expertise erstreckt sich auf die Automatisierung von Prozessen durch GitLab CI, Kubernetes, Ansible und ähnliche Tools, was unsere betriebliche Effizienz erheblich verbessert. Durch die Implementierung dieser Automatisierungspipelines habe ich repetitive Aufgaben in gestraffte Arbeitsabläufe umgewandelt, was nicht nur die Fehlerquote reduziert, sondern auch unserem Team ermöglicht, sich auf Innovation und strategische Projekte zu konzentrieren. Diese Verschiebung hin zur Automatisierung steht im Einklang mit der DevOps-Kultur, die ich aktiv im Team fördere, und ermutigt zu Zusammenarbeit, kontinuierlicher Verbesserung und einem schnellen, aber stabilen IT-Umfeld.<br>Angesichts der zunehmenden Bedrohungslandschaft war ich auch maßgeblich an der Entwicklung robuster DDoS-Schutzstrategien beteiligt. Diese Initiative war entscheidend, um unser Netzwerk und die digitalen Vermögenswerte unserer Kunden vor ausgeklügelten und volumetrischen Angriffen zu schützen, und so unseren Ruf für Zuverlässigkeit und Sicherheit zu wahren. Meine Rolle erfordert oft, dass ich mich in Penetrationstests und forensische Analysen vertiefe, um sicherzustellen, dass unsere Abwehrmaßnahmen nicht nur reaktiv, sondern proaktiv bei der Identifizierung potenzieller Schwachstellen sind.<br>Die kontinuierliche Wartung und Entwicklung unserer Infrastruktur sind ein integraler Bestandteil meiner Verantwortlichkeiten. Mein Ansatz besteht nicht nur darin, die Bedürfnisse unserer Infrastruktur zu antizipieren, sondern sie so zu innovieren und zu entwickeln, dass sie zukünftiges Wachstum und Technologien unterstützt. Ich bin stolz darauf, zu einer Infrastruktur beizutragen, die nicht nur widerstandsfähig und sicher, sondern auch skalierbar und bereit für die Herausforderungen von morgen ist."
+        },
+        "3": {
+            "title": "Chief Technology Officer (CTO)",
+            "description": "Bei Smart Mining ehf., als Chief Technology Officer (CTO), leitete ich die technologischen Fortschritte und Strategien eines führenden Unternehmens im Bereich Kryptowährungs-Cloud-Mining. Meine Rolle umfasste eine umfassende Überwachung der technischen Aspekte des Unternehmens und stellte sicher, dass wir an der Spitze des schnell fortschreitenden Krypto-Mining-Sektors blieben. Ich war aktiv an der Entwicklung robuster Überwachungssysteme, der Straffung von Prozessen und der Verbesserung von Zahlungsmethoden beteiligt, um die betriebliche Effizienz und Kundenzufriedenheit zu optimieren.<br>Meine Verantwortlichkeiten umfassten die komplexe Integration von Knoten in unsere Mining-Infrastruktur, eine kritische Aufgabe, die sorgfältige Planung und Ausführung erforderte, um die Mining-Effizienz und Netzwerkstabilität zu maximieren. Diese Rolle erforderte ein tiefes Verständnis der Blockchain-Technologie, Netzwerksicherheit und der neuesten Trends im Kryptowährungs-Mining.<br>Als Leiter des Technologie-Teams förderte ich eine Umgebung der Innovation und kontinuierlichen Verbesserung. Meine Führung konzentrierte sich darauf, ein Team von qualifizierten Fachleuten zu betreuen und weiterzuentwickeln, sie dazu zu treiben, in ihren jeweiligen Bereichen zu glänzen, während sie effektiv zusammenarbeiten, um unsere gemeinsamen Ziele zu erreichen. Gemeinsam arbeiteten wir an mehreren Initiativen, die die Systemzuverlässigkeit, Leistung und Skalierbarkeit erheblich verbesserten.<br>Zusammenfassend war meine Amtszeit bei Smart Mining ehf. gekennzeichnet durch bedeutende Beiträge zur Entwicklung modernster Mining-Lösungen, die Leitung eines leistungsstarken Technikteams und die Förderung des technologischen Wachstums des Unternehmens im wettbewerbsintensiven Umfeld des Krypto-Minings. Meine Bemühungen waren maßgeblich daran beteiligt, die Infrastruktur, Prozesse und Dienstleistungen des Unternehmens zu verbessern, um unseren Kunden zuverlässige und effiziente Mining-Lösungen zu bieten."
+        },
+        "4": {
+            "title": "Systemadministrator",
+            "description": "Bei der Softwerk GmbH war meine Reise geprägt von einem Engagement für Lernen und Wachstum, tief eintauchend in die Welt der IT-Infrastruktur und des Kundensupports. In meiner Rolle konzentrierte ich mich auf das Erweitern und Warten von Cluster-Umgebungen, die für den Geschäftsbetrieb entscheidend sind, einschließlich ESXI, Microsoft High Availability Cluster, DRBD und Heartbeat. Diese Erfahrung ermöglichte es mir, ein robustes Verständnis verschiedener Clustering-Technologien und ihrer Anwendungen in realen Szenarien zu entwickeln, wodurch die Zuverlässigkeit und Effizienz unserer Systeme verbessert wurden.<br/>Meine Verantwortlichkeiten erstreckten sich auf typische KMU-Aktivitäten, bei denen ich direkt mit Endbenutzern interagierte, um Unterstützung und auf ihre Bedürfnisse zugeschnittene Lösungen zu bieten. Indem ich mit Windows- und Debian-Systemen arbeitete, stellte ich eine nahtlose und benutzerfreundliche Erfahrung für unsere Kunden sicher. Diese praktische Erfahrung mit vielfältigen Technologien schärfte meine Problemlösungsfähigkeiten und vertiefte meine technische Expertise.<br/>Ein wesentlicher Teil meiner Rolle beinhaltete Bildung und Training, indem ich ständig meine Fähigkeiten und mein Wissen aktualisierte, um der technologischen Entwicklung voraus zu sein. Durch das kontinuierliche Lernen war ich in der Lage, innovative Lösungen und Verbesserungen für unsere Infrastruktur einzubringen, was wesentlich zum Wachstum und Erfolg des Unternehmens beitrug.<br/>Bei der Softwerk GmbH war ich mehr als nur ein Techniker; ich war ein engagierter Problemlöser, ein eifriger Lerner und ein wichtiger Teil eines Teams, das Innovation und Kundenzufriedenheit schätzte. Meine Zeit im Unternehmen war eine transformative Periode, die eine solide Grundlage für meine weitere Karriere in der IT-Branche legte."
+        },
+        "5": {
+            "title": "Hardware-Engineer",
+            "description": "Bei Core-Backbone GmbH war meine Amtszeit geprägt von einer umfangreichen Lern- und Entwicklungsphase, fokussiert auf die Feinheiten des Servermanagements und der Netzwerkinfrastruktur. Als integraler Bestandteil des Teams nahm ich an rigorosen Trainingsprogrammen teil, die mich mit dem Wissen und den Fähigkeiten ausstatteten, die erforderlich sind, um in einer schnelllebigen, technisch anspruchsvollen Umgebung zu glänzen. Meine Bildungsreise bei Core-Backbone legte den Grundstein für meine Spezialisierung im Hardware-Testing und Servermanagement.<br/>Meine Rolle beinhaltete die akribische Prüfung von Hardware, um Zuverlässigkeit und Effizienz sicherzustellen. Ich war verantwortlich für die Durchführung gründlicher Bewertungen verschiedener Komponenten, Identifizierung und Behebung von Problemen vor der Integration. Diese Aufmerksamkeit für Details war entscheidend, um die hohen Standards an Dienstleistung und Leistung, für die Core-Backbone bekannt ist, aufrechtzuerhalten.<br/>Ich spielte eine Schlüsselrolle beim Aufbau von Kundenservern und stellte sicher, dass jeder Aufbau an die Spezifikationen und Bedürfnisse der Kunden angepasst war. Dies beinhaltete die Bereitstellung, den Bau und die Installation von Servern, ein Prozess, der ein tiefes Verständnis von Hardwarekonfigurationen, Betriebssystemen und Netzwerkprotokollen erforderte. Mein Engagement für Kundenzufriedenheit zeigte sich in der Sorgfalt und Präzision, mit der jeder Server bereitgestellt wurde.<br/>Zusätzlich verwaltete ich den Austausch und die Aufrüstung von Hardwarekomponenten, um minimale Ausfallzeiten und optimale Leistung für unsere Kunden zu gewährleisten. Meine Fähigkeit, Hardwareprobleme schnell zu diagnostizieren und zu beheben, minimierte Unterbrechungen und bewahrte die Integrität unseres Dienstes. Die Arbeit bei Core-Backbone GmbH ermöglichte es mir, eine tiefgreifende technische Kompetenz und einen kundenorientierten Ansatz für IT-Lösungen zu entwickeln."
+        }
+    },
+
+    "experienceLevels": {
+        "1": {
+            "title": "Ausbildung"
+        },
+        "2": {
+            "title": "Fortgeschritten"
+        },
+        "3": {
+            "title": "Berufserfahren"
+        }
+    }
+}

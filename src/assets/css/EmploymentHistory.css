@@ -1,0 +1,72 @@
+.employment-history .job-list .list-group-item {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .employment-history .job-details .job-select-prompt {
+    text-align: center;
+  }
+  
+  .blink {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .employment-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4em;
+    color: orange;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .job-details-flex {
+    display: flex;
+    justify-content: space-between; /* Stellt sicher, dass die Kinder den verfügbaren Raum ausfüllen */
+    align-items: center; /* Zentriert die Kinder vertikal */
+  }
+  
+  .job-company {
+    text-align: left; /* Stellt die Linksorientierung sicher */
+  }
+  
+  .job-dates {
+    text-align: right; /* Stellt die Rechtsorientierung sicher */
+  }
+  
+  .employment-summary {
+    margin-top: 10px; /* Fügt etwas Abstand nach oben hinzu */
+  }
+
+  .job-info-line {
+    font-size: 1.5em;
+  }
+
+  .job-description br {
+    margin-bottom: 10px;
+    content: "";
+    display: block;
+  }
+
+  .job-tag {
+    background-color: #E0E0E0; /* Graue Hintergrundfarbe für Tags */
+    color: #333; /* Dunkle Textfarbe für Tags */
+    padding: 0.25em 0.75em; /* Innenabstand */
+    border-radius: 15px; /* Abgerundete Ecken */
+    margin-right: 0.5em; /* Abstand zwischen den Tags */
+    margin-bottom: 0.5em; /* Abstand von der unteren Zeile */
+    display: inline-block; /* Tags nebeneinander anzeigen */
+    cursor: default;
+  }
+  
+  .tag-list {
+    text-align: right; /* Rechtsbündig im Container */
+    margin-top: 20px;
+  }
+  
