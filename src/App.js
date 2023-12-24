@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import MainView from './Views/MainView'; // Pfad zu Ihrer Main-Komponente
+import ImprintView from './Views/ImprintView';
+
+import FooterView from './Views/FooterView';
+import { MainHelmet } from './Helmet/MainHelmet';
+import NotFoundView from './Views/NotFoundView';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MainHelmet/>
+      <Routes>
+        <Route path="/" element={<MainView />} />
+        <Route path="/impressum" element={<ImprintView />} />
+        <Route path="*" element={<NotFoundView />} />
+      </Routes>
+      <FooterView/>
     </div>
   );
 }
