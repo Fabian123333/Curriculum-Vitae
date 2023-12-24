@@ -5,7 +5,6 @@ const nodeExternals = require('webpack-node-externals');
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-
 module.exports = [
   // Client Side Rendering Configuration
   {
@@ -13,7 +12,8 @@ module.exports = [
     mode: 'production',
     output: {
       path: path.resolve(__dirname, 'build'),
-      filename: 'bundle.js'
+      filename: 'bundle.js',
+      publicPath: '/'
     },
     resolve: {
         extensions: ['.jsx', '.js', '.json'],
@@ -28,9 +28,21 @@ module.exports = [
         {
           test: /\.css$/,
           use: [MiniCssExtractPlugin.loader, 'css-loader']
-        }
-      ]
-    },
+        },
+        {
+            test: /\.(jpe?g|png)$/i,
+            use: [
+              {
+                loader: 'responsive-loader',
+                options: {
+                  adapter: require('responsive-loader/sharp'), 
+                  sizes: [300, 600, 1200, 2000], 
+                  name: 'assets/[name]-[width].[ext]'
+                }
+              }
+            ]
+          }
+    ]},
     plugins: [
       new HtmlWebpackPlugin({
         template: './public/index.html'
@@ -49,7 +61,8 @@ module.exports = [
     externals: [nodeExternals()], 
     output: {
       path: path.resolve(__dirname, 'build'),
-      filename: 'server.js'
+      filename: 'server.js',
+      publicPath: '/'
     },
     resolve: {
         extensions: ['.jsx', '.js', '.json'],
@@ -60,7 +73,20 @@ module.exports = [
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
           use: 'babel-loader'
-        }
+        },
+        {
+            test: /\.(jpe?g|png)$/i,
+            use: [
+              {
+                loader: 'responsive-loader',
+                options: {
+                  adapter: require('responsive-loader/sharp'), 
+                  sizes: [300, 600, 1200, 2000], 
+                  name: 'assets/[name]-[width].[ext]'
+                }
+              }
+            ]
+          }
       ]
     },
     plugins: [

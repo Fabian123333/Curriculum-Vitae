@@ -5,9 +5,9 @@ import { useTranslation } from 'react-i18next';
 
 import { faGithub, faXing, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import profilePicture from '../../public/profiledata/profilePictureFull.jpeg';
 
 const  profile = require("../assets/profileInformation.json")
-
 
 const HeroComponent = () => {
   const { t } = useTranslation();
@@ -27,8 +27,13 @@ const HeroComponent = () => {
     <Container fluid className="hero-component" style={{ minHeight: '100vh' }}>
       <Row className="align-items-center" style={{ minHeight: '100vh' }}>
         <Col xs={12} md={6} className="hero-image">
-          {/* Platz für das Bild */}
-          <img src="/profiledata/profilePictureFull.jpeg" alt={ t("alt.profilePictureFull") } className="img-fluid" />
+          <img 
+            srcSet={`${profilePicture.srcSet}`} 
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            src={profilePicture.src}
+            alt="Profile Picture" 
+            className="img-fluid" 
+          />
         </Col>
         <Col xs={12} md={6} className="hero-info">
           <h2 className="welcome-text">
