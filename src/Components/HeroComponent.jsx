@@ -64,19 +64,19 @@ const HeroComponent = () => {
           </div>
 
           <div className="social-links">
-            <a href={t("format.githubProfileUrl", { username: profile.social.github.username })} target="_blank" rel="noopener noreferrer">
+            <a href={t("format.githubProfileUrl", { username: profile.social.github.username })} alt="Github" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href={t("format.xingProfileUrl", { username: profile.social.xing.username })} target="_blank" rel="noopener noreferrer">
+            <a href={t("format.xingProfileUrl", { username: profile.social.xing.username })} alt="Xing" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faXing} />
             </a>
-            <a href={t("format.linkedinProfileUrl", { username: profile.social.linkedin.username })} target="_blank" rel="noopener noreferrer">
+            <a href={t("format.linkedinProfileUrl", { username: profile.social.linkedin.username })} alt="LinkedIn" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href={`mailto:${profile.social.email.contact}`}>
+            <a href={`mailto:${profile.social.email.contact}`} alt="E-Mail" >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <a href={`tel:${profile.social.phone.number}`}>
+            <a href={`tel:${profile.social.phone.number}`} alt="Phone">
               <FontAwesomeIcon icon={faPhone} />
             </a>
           </div>
